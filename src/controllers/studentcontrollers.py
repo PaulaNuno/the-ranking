@@ -1,18 +1,19 @@
 from src.app import app
-from database import db
-from flask import request, Response
+from src.database import db
+from flask import request
 from bson.json_util import dumps
+import numpy as np
 
 @app.route('/') 
 def welcome():
     return {
         'status': 'OK',
         'message': 'Hola, bienvenida a mi primera API'}
-        
+
 @app.route('/student/create/<name>')
 def create_student(name):
     new_student = {
-        'Usuario': name}
+        'Usuario': f"{name}"}  
     result = db.pull.insert_one(new_student)
     return {'_id': str(result.inserted_id)}
 

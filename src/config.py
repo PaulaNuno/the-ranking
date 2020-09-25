@@ -4,5 +4,5 @@ import dotenv
 dotenv.load_dotenv()
 
 PORT = os.getenv("PORT")
-DBURL = os.getenv("DBURL")
+DBURL = os.getenv("DB_URL")
 
