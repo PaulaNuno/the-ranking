@@ -58,9 +58,13 @@ Obtenemos un meme al azar de las pull request de los alumnos.
     
 ## Principales fuentes consultadas
     
-<a href="https://flask.palletsprojects.com/en/1.1.x/">Flask</a
-<a href="https://pymongo.readthedocs.io/en/stable/">PyMongo</a
-<a href="https://www.mongodb.com/">MongoDB</a
+[Flask](https://flask.palletsprojects.com/en/1.1.x/)
+[PyMongo](https://pymongo.readthedocs.io/en/stable/)
+[MongoDB](https://www.mongodb.com/)
+    
+
+    
+
 
 
 
