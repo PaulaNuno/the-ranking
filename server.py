@@ -1,6 +1,6 @@
 from src.app import app
-import controllers.student_controllers
-import controllers.lab_controllers
+import controllers.studentcontrollers
+import controllers.labcontrollers
 from config import PORT
 
 

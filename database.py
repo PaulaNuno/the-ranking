@@ -4,7 +4,7 @@ load_dotenv()
 from pymongo import MongoClient
 
 PORT = os.getenv("PORT")
-DBURL = os.getenv("DBURL")
+DBURL = os.getenv("DB_URL")
 
 client = MongoClient(DBURL)
-db = client.get_database("githubpulls")
+db = client.get_database()
