@@ -1,7 +1,7 @@
 
 
 
-![the_raking_project](imagenes/theranking_cabecera.png)
+![the_raking_project](imagenes/cabecera.png)
 
 
 
